@@ -7,7 +7,7 @@ Situations when the app cannot be used:
 1) In moving vehicles. If a person stops moving, the movements of the vehicle will contribute to the movements of the Android device.
 2) In tall buildings. I assume that the micro sway of the building may contribute to movements of the Android device.
 
-How to test (To do: make video: These instructions would be too complicated for most people.)
+How to test (To do: Make a video of these instructions would be too confusing for most people.)
 ----------------------------------------------------------------------------------------------
 1) Hit "Open settings" button on the main screen of the app. key in the following settings:
 	a) Contacts section. Key in a phone number of a cell phone (so that the cell phone can recieve an sms).
