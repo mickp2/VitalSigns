@@ -1,3 +1,12 @@
+This Android application is supposed to interpret  signals which represent the Vital Signs(could be heart rate, body temperature etc.) of a person received from a Bluetooth LE device.
+
+If the app interprets that the Vital Signs of a person are not ideal (say a heart rate of 20, or no heart rate) then it will start beeping and  will dial out the numbers that are stored in the contacts section. It will also send out an SMS with the GPS co-ordinates to that number.
+
+
+IMPORTANT:
+The documentation below corresponds to the last commit made on Dec 01, 2012 . For the latest documentation do not read this section.
+
+-----OLDER DOCUMENTATION STARTS HERE------
 This Android application is supposed to detect if the person is not moving. Typically this might happen in a medical emergency (No breathing or heat beat). This application works on an android  device (phones, tablets etc.) which have a 3 axis accelerometer. The application detects movements. If the movements are below a particular threshold than the application begins to beep and  a countdown is initiated and finally the application begins to dial  and send out SMSes with the GPS co-ordinates to the numbers that are keyed into the settings.
 
 While the application in its current form is restricted because it sends out the alert only after the fact(No breathing or heat beat) the hope is that there will be android devices in the future that can detect the heart rate and breathing rate and send out an alert if the rates are too high or too low.
